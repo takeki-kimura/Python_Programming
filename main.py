@@ -71,4 +71,14 @@ if __name__ == '__main__':
 >>> str(True)
 'True'
 
+a = 'a'
+print(f'a is {a}')
+ 
+x, y, z = 1, 2, 3
+print(f'a is {x}, {y}, {z}')
+print(f'a is {z}, {y}, {x}')
+ 
+name = 'Takeki'
+family = 'Kimura'
+print(f'My name is {name} {family}. Watashi ha {family} {name}')
 """
