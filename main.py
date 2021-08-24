@@ -1,20 +1,3 @@
-# This is a sample Python script.
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
-
 """
 
 >>> 2 +2
@@ -132,7 +115,9 @@ IndexError: list index out of range
 >>> x[1][2]
 3
 
+
 #リストの操作
+
 >>> s = ['a', 'b', 'c','d','e','f','g']
 >>> s
 ['a', 'b', 'c', 'd', 'e', 'f', 'g']
@@ -198,7 +183,7 @@ Traceback (most recent call last):
 ValueError: list.remove(x): x not in list
 >>> 
 
-＃リストの結合
+# リストの結合
 
 >>> a = [1,2,3,4,5]
 >>> b = [6,7,8,9,10]
@@ -222,5 +207,38 @@ ValueError: list.remove(x): x not in list
 >>> x
 [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
+
+#  リストの使い方
+
+>>> seat = []
+>>> min = 0
+>>> max = 5
+>>> min <= len(seat) < max
+True
+>>> seat.append('p')
+>>> min <= len(seat) < max
+True
+>>> len(seat)
+1
+>>> seat.append('p')
+>>> min <= len(seat) < max
+True
+>>> len(seat)
+2
+>>> seat.append('p')
+>>> seat.append('p')
+>>> min <= len(seat) < max
+True
+>>> len(seat)
+4
+>>> seat.append('p')
+>>> min <= len(seat) < max
+False
+>>> len(seat)
+5
+>>> seat.pop(0)
+'p'
+>>> min <= len(seat) < max
+True
 
 """
